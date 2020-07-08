@@ -1,0 +1,6 @@
+framework module Pods_transit_safety_appTests {
+  umbrella header "Pods-transit safety appTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
