@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A56B46624B5648900254AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B46524B5648900254AC4 /* AppDelegate.swift */; };
+		1A56B46824B5648900254AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B46724B5648900254AC4 /* SceneDelegate.swift */; };
+		1A56B46A24B5648900254AC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B46924B5648900254AC4 /* ContentView.swift */; };
+		1A56B46C24B5648B00254AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B46B24B5648B00254AC4 /* Assets.xcassets */; };
+		1A56B46F24B5648B00254AC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B46E24B5648B00254AC4 /* Preview Assets.xcassets */; };
+		1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */; };
+		1A56B47D24B5648B00254AC4 /* transit_safety_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B47C24B5648B00254AC4 /* transit_safety_appTests.swift */; };
+		1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A56B47924B5648B00254AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A56B45A24B5648900254AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A56B46124B5648900254AC4;
+			remoteInfo = "transit safety app";
+		};
+		1A56B48424B5648B00254AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A56B45A24B5648900254AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A56B46124B5648900254AC4;
+			remoteInfo = "transit safety app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A56B46224B5648900254AC4 /* transit safety app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "transit safety app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A56B46524B5648900254AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A56B46724B5648900254AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A56B46924B5648900254AC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A56B46B24B5648B00254AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A56B46E24B5648B00254AC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A56B47124B5648B00254AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A56B47324B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A56B47824B5648B00254AC4 /* transit safety appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit safety appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A56B47C24B5648B00254AC4 /* transit_safety_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_safety_appTests.swift; sourceTree = "<group>"; };
+		1A56B47E24B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A56B48324B5648B00254AC4 /* transit safety appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit safety appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_safety_appUITests.swift; sourceTree = "<group>"; };
+		1A56B48924B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A56B45F24B5648900254AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B47524B5648B00254AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B48024B5648B00254AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A56B45924B5648900254AC4 = {
+			isa = PBXGroup;
+			children = (
+				1A56B46424B5648900254AC4 /* transit safety app */,
+				1A56B47B24B5648B00254AC4 /* transit safety appTests */,
+				1A56B48624B5648B00254AC4 /* transit safety appUITests */,
+				1A56B46324B5648900254AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A56B46324B5648900254AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A56B46224B5648900254AC4 /* transit safety app.app */,
+				1A56B47824B5648B00254AC4 /* transit safety appTests.xctest */,
+				1A56B48324B5648B00254AC4 /* transit safety appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A56B46424B5648900254AC4 /* transit safety app */ = {
+			isa = PBXGroup;
+			children = (
+				1A56B46524B5648900254AC4 /* AppDelegate.swift */,
+				1A56B46724B5648900254AC4 /* SceneDelegate.swift */,
+				1A56B46924B5648900254AC4 /* ContentView.swift */,
+				1A56B46B24B5648B00254AC4 /* Assets.xcassets */,
+				1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */,
+				1A56B47324B5648B00254AC4 /* Info.plist */,
+				1A56B46D24B5648B00254AC4 /* Preview Content */,
+			);
+			path = "transit safety app";
+			sourceTree = "<group>";
+		};
+		1A56B46D24B5648B00254AC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A56B46E24B5648B00254AC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A56B47B24B5648B00254AC4 /* transit safety appTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A56B47C24B5648B00254AC4 /* transit_safety_appTests.swift */,
+				1A56B47E24B5648B00254AC4 /* Info.plist */,
+			);
+			path = "transit safety appTests";
+			sourceTree = "<group>";
+		};
+		1A56B48624B5648B00254AC4 /* transit safety appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */,
+				1A56B48924B5648B00254AC4 /* Info.plist */,
+			);
+			path = "transit safety appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A56B46124B5648900254AC4 /* transit safety app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A56B48C24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety app" */;
+			buildPhases = (
+				1A56B45E24B5648900254AC4 /* Sources */,
+				1A56B45F24B5648900254AC4 /* Frameworks */,
+				1A56B46024B5648900254AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "transit safety app";
+			productName = "transit safety app";
+			productReference = 1A56B46224B5648900254AC4 /* transit safety app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A56B47724B5648B00254AC4 /* transit safety appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A56B48F24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appTests" */;
+			buildPhases = (
+				1A56B47424B5648B00254AC4 /* Sources */,
+				1A56B47524B5648B00254AC4 /* Frameworks */,
+				1A56B47624B5648B00254AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A56B47A24B5648B00254AC4 /* PBXTargetDependency */,
+			);
+			name = "transit safety appTests";
+			productName = "transit safety appTests";
+			productReference = 1A56B47824B5648B00254AC4 /* transit safety appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A56B48224B5648B00254AC4 /* transit safety appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A56B49224B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appUITests" */;
+			buildPhases = (
+				1A56B47F24B5648B00254AC4 /* Sources */,
+				1A56B48024B5648B00254AC4 /* Frameworks */,
+				1A56B48124B5648B00254AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A56B48524B5648B00254AC4 /* PBXTargetDependency */,
+			);
+			name = "transit safety appUITests";
+			productName = "transit safety appUITests";
+			productReference = 1A56B48324B5648B00254AC4 /* transit safety appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A56B45A24B5648900254AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Shannon Jin";
+				TargetAttributes = {
+					1A56B46124B5648900254AC4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1A56B47724B5648B00254AC4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A56B46124B5648900254AC4;
+					};
+					1A56B48224B5648B00254AC4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A56B46124B5648900254AC4;
+					};
+				};
+			};
+			buildConfigurationList = 1A56B45D24B5648900254AC4 /* Build configuration list for PBXProject "transit safety app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A56B45924B5648900254AC4;
+			productRefGroup = 1A56B46324B5648900254AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A56B46124B5648900254AC4 /* transit safety app */,
+				1A56B47724B5648B00254AC4 /* transit safety appTests */,
+				1A56B48224B5648B00254AC4 /* transit safety appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A56B46024B5648900254AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */,
+				1A56B46F24B5648B00254AC4 /* Preview Assets.xcassets in Resources */,
+				1A56B46C24B5648B00254AC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B47624B5648B00254AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B48124B5648B00254AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A56B45E24B5648900254AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56B46624B5648900254AC4 /* AppDelegate.swift in Sources */,
+				1A56B46824B5648900254AC4 /* SceneDelegate.swift in Sources */,
+				1A56B46A24B5648900254AC4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B47424B5648B00254AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56B47D24B5648B00254AC4 /* transit_safety_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A56B47F24B5648B00254AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A56B47A24B5648B00254AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A56B46124B5648900254AC4 /* transit safety app */;
+			targetProxy = 1A56B47924B5648B00254AC4 /* PBXContainerItemProxy */;
+		};
+		1A56B48524B5648B00254AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A56B46124B5648900254AC4 /* transit safety app */;
+			targetProxy = 1A56B48424B5648B00254AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A56B47124B5648B00254AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A56B48A24B5648B00254AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A56B48B24B5648B00254AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A56B48D24B5648B00254AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"transit safety app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "transit safety app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A56B48E24B5648B00254AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"transit safety app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "transit safety app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A56B49024B5648B00254AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "transit safety appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transit safety app.app/transit safety app";
+			};
+			name = Debug;
+		};
+		1A56B49124B5648B00254AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "transit safety appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transit safety app.app/transit safety app";
+			};
+			name = Release;
+		};
+		1A56B49324B5648B00254AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "transit safety appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "transit safety app";
+			};
+			name = Debug;
+		};
+		1A56B49424B5648B00254AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "transit safety appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "transit safety app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A56B45D24B5648900254AC4 /* Build configuration list for PBXProject "transit safety app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A56B48A24B5648B00254AC4 /* Debug */,
+				1A56B48B24B5648B00254AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A56B48C24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A56B48D24B5648B00254AC4 /* Debug */,
+				1A56B48E24B5648B00254AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A56B48F24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A56B49024B5648B00254AC4 /* Debug */,
+				1A56B49124B5648B00254AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A56B49224B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A56B49324B5648B00254AC4 /* Debug */,
+				1A56B49424B5648B00254AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A56B45A24B5648900254AC4 /* Project object */;
+}
