@@ -15,6 +15,10 @@
 		1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */; };
 		1A56B47D24B5648B00254AC4 /* transit_safety_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B47C24B5648B00254AC4 /* transit_safety_appTests.swift */; };
 		1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */; };
+		1A56B49624B5692C00254AC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */; };
+		580A6CE1A7D1431FB6133EC6 /* Pods_transit_safety_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */; };
+		B1D71C8D41D5B1EBF777238D /* Pods_transit_safety_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421161654656A7BEA218088B /* Pods_transit_safety_app.framework */; };
+		C8D5D26D536E08DFC8900045 /* Pods_transit_safety_app_transit_safety_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B65FCFB893CD99445B23D7 /* Pods_transit_safety_app_transit_safety_appUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		1A56B48324B5648B00254AC4 /* transit safety appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit safety appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_safety_appUITests.swift; sourceTree = "<group>"; };
 		1A56B48924B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421161654656A7BEA218088B /* Pods_transit_safety_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.debug.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1B1027E250DA05B41154C0 /* Pods-transit safety app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.release.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.release.xcconfig"; sourceTree = "<group>"; };
+		7D1117AD69357C48B07EA48C /* Pods-transit safety appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety appTests.release.xcconfig"; path = "Target Support Files/Pods-transit safety appTests/Pods-transit safety appTests.release.xcconfig"; sourceTree = "<group>"; };
+		C183329021505D8D43F7C310 /* Pods-transit safety app-transit safety appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app-transit safety appUITests.release.xcconfig"; path = "Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C202CB0AAD6721828B3F12A0 /* Pods-transit safety app-transit safety appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app-transit safety appUITests.debug.xcconfig"; path = "Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B65FCFB893CD99445B23D7 /* Pods_transit_safety_app_transit_safety_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_app_transit_safety_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE05B73A5AFC4A8D7B661934 /* Pods-transit safety appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety appTests.debug.xcconfig"; path = "Target Support Files/Pods-transit safety appTests/Pods-transit safety appTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D71C8D41D5B1EBF777238D /* Pods_transit_safety_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580A6CE1A7D1431FB6133EC6 /* Pods_transit_safety_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D5D26D536E08DFC8900045 /* Pods_transit_safety_app_transit_safety_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				1A56B47B24B5648B00254AC4 /* transit safety appTests */,
 				1A56B48624B5648B00254AC4 /* transit safety appUITests */,
 				1A56B46324B5648900254AC4 /* Products */,
+				A47990F596228AB57A876642 /* Pods */,
+				523DF9FD7CC51C55FAE55A0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				1A56B46B24B5648B00254AC4 /* Assets.xcassets */,
 				1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */,
 				1A56B47324B5648B00254AC4 /* Info.plist */,
+				1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */,
 				1A56B46D24B5648B00254AC4 /* Preview Content */,
 			);
 			path = "transit safety app";
@@ -136,6 +156,30 @@
 			path = "transit safety appUITests";
 			sourceTree = "<group>";
 		};
+		523DF9FD7CC51C55FAE55A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				421161654656A7BEA218088B /* Pods_transit_safety_app.framework */,
+				D0B65FCFB893CD99445B23D7 /* Pods_transit_safety_app_transit_safety_appUITests.framework */,
+				2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47990F596228AB57A876642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */,
+				7C1B1027E250DA05B41154C0 /* Pods-transit safety app.release.xcconfig */,
+				C202CB0AAD6721828B3F12A0 /* Pods-transit safety app-transit safety appUITests.debug.xcconfig */,
+				C183329021505D8D43F7C310 /* Pods-transit safety app-transit safety appUITests.release.xcconfig */,
+				DE05B73A5AFC4A8D7B661934 /* Pods-transit safety appTests.debug.xcconfig */,
+				7D1117AD69357C48B07EA48C /* Pods-transit safety appTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A56B48C24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety app" */;
 			buildPhases = (
+				E3C904EE44F75A3BA8B78294 /* [CP] Check Pods Manifest.lock */,
 				1A56B45E24B5648900254AC4 /* Sources */,
 				1A56B45F24B5648900254AC4 /* Frameworks */,
 				1A56B46024B5648900254AC4 /* Resources */,
+				81808C14F9241287FA3AA388 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A56B48F24B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appTests" */;
 			buildPhases = (
+				C2959E91D0EFB185A082836E /* [CP] Check Pods Manifest.lock */,
 				1A56B47424B5648B00254AC4 /* Sources */,
 				1A56B47524B5648B00254AC4 /* Frameworks */,
 				1A56B47624B5648B00254AC4 /* Resources */,
@@ -178,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A56B49224B5648B00254AC4 /* Build configuration list for PBXNativeTarget "transit safety appUITests" */;
 			buildPhases = (
+				19DA7D4A453C8536ED887A5A /* [CP] Check Pods Manifest.lock */,
 				1A56B47F24B5648B00254AC4 /* Sources */,
 				1A56B48024B5648B00254AC4 /* Frameworks */,
 				1A56B48124B5648B00254AC4 /* Resources */,
+				96AC9E612243539202BF6C0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */,
+				1A56B49624B5692C00254AC4 /* GoogleService-Info.plist in Resources */,
 				1A56B46F24B5648B00254AC4 /* Preview Assets.xcassets in Resources */,
 				1A56B46C24B5648B00254AC4 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +311,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19DA7D4A453C8536ED887A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-transit safety app-transit safety appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81808C14F9241287FA3AA388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transit safety app/Pods-transit safety app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transit safety app/Pods-transit safety app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transit safety app/Pods-transit safety app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AC9E612243539202BF6C0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2959E91D0EFB185A082836E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-transit safety appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C904EE44F75A3BA8B78294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-transit safety app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A56B45E24B5648900254AC4 /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		1A56B48D24B5648B00254AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802-oh2212-lk2763-kl3091.transit-safety-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +605,7 @@
 		};
 		1A56B48E24B5648B00254AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1B1027E250DA05B41154C0 /* Pods-transit safety app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,7 +616,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sj2802.transit-safety-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "sj2802-oh2212-lk2763-kl3091.transit-safety-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +625,7 @@
 		};
 		1A56B49024B5648B00254AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE05B73A5AFC4A8D7B661934 /* Pods-transit safety appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +647,7 @@
 		};
 		1A56B49124B5648B00254AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1117AD69357C48B07EA48C /* Pods-transit safety appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +669,7 @@
 		};
 		1A56B49324B5648B00254AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C202CB0AAD6721828B3F12A0 /* Pods-transit safety app-transit safety appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +689,7 @@
 		};
 		1A56B49424B5648B00254AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C183329021505D8D43F7C310 /* Pods-transit safety app-transit safety appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var startAddress: String = ""
+    @State var destinationAddress: String = ""
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack(alignment: .leading){
+            TextField("From", text: $startAddress)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            TextField("To", text: $destinationAddress)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+        }.padding()
+      
     }
 }
 
