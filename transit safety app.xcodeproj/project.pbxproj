@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,16 @@
 		1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */; };
 		1A56B47D24B5648B00254AC4 /* transit_safety_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B47C24B5648B00254AC4 /* transit_safety_appTests.swift */; };
 		1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */; };
-		1A56B49624B5692C00254AC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */; };
 		580A6CE1A7D1431FB6133EC6 /* Pods_transit_safety_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */; };
+		70862A0D24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
+		70862A0E24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
+		70862A0F24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
+		70862A1724C3C5CD00E867C6 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1624C3C5CD00E867C6 /* MapScreen.swift */; };
+		70862A1824C3C5CD00E867C6 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1624C3C5CD00E867C6 /* MapScreen.swift */; };
+		70862A1924C3C5CD00E867C6 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1624C3C5CD00E867C6 /* MapScreen.swift */; };
+		70862A1B24C3C5D900E867C6 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1A24C3C5D900E867C6 /* CreateAccount.swift */; };
+		70862A1C24C3C5D900E867C6 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1A24C3C5D900E867C6 /* CreateAccount.swift */; };
+		70862A1D24C3C5D900E867C6 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70862A1A24C3C5D900E867C6 /* CreateAccount.swift */; };
 		B1D71C8D41D5B1EBF777238D /* Pods_transit_safety_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421161654656A7BEA218088B /* Pods_transit_safety_app.framework */; };
 		C8D5D26D536E08DFC8900045 /* Pods_transit_safety_app_transit_safety_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B65FCFB893CD99445B23D7 /* Pods_transit_safety_app_transit_safety_appUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,10 +61,13 @@
 		1A56B48324B5648B00254AC4 /* transit safety appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit safety appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_safety_appUITests.swift; sourceTree = "<group>"; };
 		1A56B48924B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421161654656A7BEA218088B /* Pods_transit_safety_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.debug.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.debug.xcconfig"; sourceTree = "<group>"; };
+		70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/transit-safety-app-master copy 2/transit safety app/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70862A1024C3C3E300E867C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70862A1624C3C5CD00E867C6 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		70862A1A24C3C5D900E867C6 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		7C1B1027E250DA05B41154C0 /* Pods-transit safety app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.release.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.release.xcconfig"; sourceTree = "<group>"; };
 		7D1117AD69357C48B07EA48C /* Pods-transit safety appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety appTests.release.xcconfig"; path = "Target Support Files/Pods-transit safety appTests/Pods-transit safety appTests.release.xcconfig"; sourceTree = "<group>"; };
 		C183329021505D8D43F7C310 /* Pods-transit safety app-transit safety appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app-transit safety appUITests.release.xcconfig"; path = "Target Support Files/Pods-transit safety app-transit safety appUITests/Pods-transit safety app-transit safety appUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +107,7 @@
 		1A56B45924B5648900254AC4 = {
 			isa = PBXGroup;
 			children = (
+				70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */,
 				1A56B46424B5648900254AC4 /* transit safety app */,
 				1A56B47B24B5648B00254AC4 /* transit safety appTests */,
 				1A56B48624B5648B00254AC4 /* transit safety appUITests */,
@@ -118,13 +130,15 @@
 		1A56B46424B5648900254AC4 /* transit safety app */ = {
 			isa = PBXGroup;
 			children = (
+				70862A1024C3C3E300E867C6 /* GoogleService-Info.plist */,
 				1A56B46524B5648900254AC4 /* AppDelegate.swift */,
 				1A56B46724B5648900254AC4 /* SceneDelegate.swift */,
 				1A56B46924B5648900254AC4 /* ContentView.swift */,
 				1A56B46B24B5648B00254AC4 /* Assets.xcassets */,
+				70862A1624C3C5CD00E867C6 /* MapScreen.swift */,
+				70862A1A24C3C5D900E867C6 /* CreateAccount.swift */,
 				1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */,
 				1A56B47324B5648B00254AC4 /* Info.plist */,
-				1A56B49524B5692C00254AC4 /* GoogleService-Info.plist */,
 				1A56B46D24B5648B00254AC4 /* Preview Content */,
 			);
 			path = "transit safety app";
@@ -176,7 +190,6 @@
 				DE05B73A5AFC4A8D7B661934 /* Pods-transit safety appTests.debug.xcconfig */,
 				7D1117AD69357C48B07EA48C /* Pods-transit safety appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -290,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A56B47224B5648B00254AC4 /* LaunchScreen.storyboard in Resources */,
-				1A56B49624B5692C00254AC4 /* GoogleService-Info.plist in Resources */,
+				70862A0D24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */,
 				1A56B46F24B5648B00254AC4 /* Preview Assets.xcassets in Resources */,
 				1A56B46C24B5648B00254AC4 /* Assets.xcassets in Resources */,
 			);
@@ -300,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70862A0E24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70862A0F24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +435,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70862A1724C3C5CD00E867C6 /* MapScreen.swift in Sources */,
 				1A56B46624B5648900254AC4 /* AppDelegate.swift in Sources */,
+				70862A1B24C3C5D900E867C6 /* CreateAccount.swift in Sources */,
 				1A56B46824B5648900254AC4 /* SceneDelegate.swift in Sources */,
 				1A56B46A24B5648900254AC4 /* ContentView.swift in Sources */,
 			);
@@ -430,6 +447,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70862A1824C3C5CD00E867C6 /* MapScreen.swift in Sources */,
+				70862A1C24C3C5D900E867C6 /* CreateAccount.swift in Sources */,
 				1A56B47D24B5648B00254AC4 /* transit_safety_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +457,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70862A1924C3C5CD00E867C6 /* MapScreen.swift in Sources */,
+				70862A1D24C3C5D900E867C6 /* CreateAccount.swift in Sources */,
 				1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
