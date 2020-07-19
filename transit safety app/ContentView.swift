@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack(alignment: .leading){
-            TextField("From", text: $startAddress)
+            TextField("Frick", text: $startAddress)
             .textFieldStyle(RoundedBorderTextFieldStyle())
             TextField("To", text: $destinationAddress)
             .textFieldStyle(RoundedBorderTextFieldStyle())
