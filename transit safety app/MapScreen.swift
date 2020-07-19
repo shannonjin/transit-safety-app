@@ -10,7 +10,17 @@ import SwiftUI
 
 struct MapScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("MenuBar").resizable()
+                .frame(width: 377.0, height: 200)
+                .offset(y:-244)
+            
+            TextField("From", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .offset(x:76,y:-226)
+            
+            TextField("To", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .offset(x:76, y:-268)
+        }
     }
 }
 
