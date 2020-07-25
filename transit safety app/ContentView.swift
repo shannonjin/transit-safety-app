@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewRouter: ViewRouter
+    
     @State var startAddress: String = ""
     @State var destinationAddress: String = ""
     
@@ -37,22 +40,19 @@ struct ContentView: View {
             
             ZStack{
                 
-                Capsule()
+               /* Capsule()
                     .size(width: 220, height: 24)
                     .offset(x:76, y:453)
                     .fill(Color.init(red: 0, green:0.22, blue:0.65))
-                    .shadow(radius: 3)
+                    .shadow(radius: 3)*/
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Log In")
-                        .font(.system(size:13))
-                        .offset(y:131)
-                        .foregroundColor(Color.white)
+                LoginButtonContent().onTapGesture {
+                    self.viewRouter.currentPage = "map screen"
                 }
             }
             
             ZStack{
-                Capsule()
+                /*Capsule()
                     .size(width: 100, height: 24)
                     .offset(x:137,y:488)
                     .fill(Color.white)
@@ -63,14 +63,11 @@ struct ContentView: View {
                     )
                     .frame(width:100,height:24)
                     .offset(x:0,y:165)
-                    .shadow(radius: 3)
+                    .shadow(radius: 3)*/
                 
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Sign Up")
-                        .font(.system(size:13))
-                        .offset(y:165)
-                        .foregroundColor(Color.black)
+        
+                SignupButtonContent().onTapGesture {
+                    self.viewRouter.currentPage = "create account"
                 }
             }
             
@@ -81,6 +78,34 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewRouter: ViewRouter())
+    }
+}
+
+
+struct SignupButtonContent : View{
+    var body: some View {
+        return Text("Sign Up")
+            .foregroundColor(.white)
+            .frame(width: 200, height: 30)
+            .background(Color.blue)
+            .cornerRadius(15)
+            .padding(.top, 50)
+            .font(.system(size:13))
+            .position(x:190, y:450)
+    }
+}
+
+
+struct LoginButtonContent : View{
+    var body: some View {
+        return Text("Login")
+            .foregroundColor(.white)
+            .frame(width: 200, height: 30)
+            .background(Color.blue)
+            .cornerRadius(15)
+            .padding(.top, 50)
+            .font(.system(size:13))
+            .position(x:190, y:490)
     }
 }
