@@ -9,12 +9,19 @@
 import SwiftUI
 
 struct CreateAccount: View {
+    
+    @ObservedObject var viewRouter: ViewRouter
+    
     var body: some View {
      ZStack{
                 Image("CreateAccount1 (1)").resizable()
                     .frame(width: 290.0, height: 265.0)
                     .offset(y:-10)
-                
+        
+        Image("x_out").scaleEffect(0.05).position(x:50, y:10).onTapGesture {
+             self.viewRouter.currentPage = "login"
+        }
+        
                 TextField("Email", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                     .offset(x:50 , y: 53)
                 
@@ -49,6 +56,6 @@ struct CreateAccount: View {
 
 struct CreateAccount_Previews: PreviewProvider {
     static var previews: some View {
-        CreateAccount()
+        CreateAccount(viewRouter: ViewRouter())
     }
 }

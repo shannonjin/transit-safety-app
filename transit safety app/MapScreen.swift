@@ -9,11 +9,15 @@
 import SwiftUI
 
 struct MapScreen: View {
+    @ObservedObject var viewRouter: ViewRouter
+    
     var body: some View {
         ZStack{
             Image("MenuBar").resizable()
                 .frame(width: 377.0, height: 200)
-                .offset(y:-244)
+                .offset(y:-244).onTapGesture {
+                    self.viewRouter.currentPage = "login"
+            }
             
             TextField("From", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .offset(x:76,y:-226)
@@ -26,6 +30,6 @@ struct MapScreen: View {
 
 struct MapScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MapScreen()
+        MapScreen(viewRouter: ViewRouter())
     }
 }

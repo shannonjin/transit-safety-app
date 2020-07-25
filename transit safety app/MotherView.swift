@@ -19,11 +19,11 @@ struct MotherView: View {
                 ContentView(viewRouter: viewRouter)
             } else if viewRouter.currentPage == "map screen"
             {
-                MapScreen()
+                MapScreen(viewRouter: viewRouter)
             }
             else if viewRouter.currentPage == "create account"
             {
-                CreateAccount()
+                CreateAccount(viewRouter: viewRouter)
             }
         }
     }
