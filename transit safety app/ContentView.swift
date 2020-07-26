@@ -23,9 +23,10 @@ struct ContentView: View {
                 .frame(width: 377.0, height: 667.0)
                 .offset(y: -10)
             
-            TextField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            SecureField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .font(.system(size:16))
                 .offset(x:75, y:73)
+                
             
             TextField("Email", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .font(.system(size:16))
