@@ -33,6 +33,10 @@ struct MotherView: View {
             {
                 MondayView(viewRouter: viewRouter)
             }
+            else if viewRouter.currentPage == "safety tips"
+            {
+                SafetyTipsView(viewRouter: viewRouter)
+            }
         }
     }
 }

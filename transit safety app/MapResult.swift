@@ -68,7 +68,7 @@ struct clearButton : View{
             .cornerRadius(15)
             .padding(.top, 50)
             .font(.system(size:13))
-            .position(x:185, y:520)
+            .position(x:185, y:530)
     }
 }
 
