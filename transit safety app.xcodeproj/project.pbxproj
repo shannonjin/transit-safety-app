@@ -17,6 +17,8 @@
 		1A56B48824B5648B00254AC4 /* transit_safety_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56B48724B5648B00254AC4 /* transit_safety_appUITests.swift */; };
 		1A6B700B24CCD81C0074EAB5 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B700A24CCD81C0074EAB5 /* MotherView.swift */; };
 		1A6B700D24CCDA0A0074EAB5 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B700C24CCDA0A0074EAB5 /* ViewRouter.swift */; };
+		1A6B701324CE90F70074EAB5 /* MapResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701224CE90F70074EAB5 /* MapResult.swift */; };
+		1A6B701524CE9BC40074EAB5 /* MapResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */; };
 		580A6CE1A7D1431FB6133EC6 /* Pods_transit_safety_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */; };
 		70862A0D24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
 		70862A0E24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
@@ -65,6 +67,8 @@
 		1A56B48924B5648B00254AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6B700A24CCD81C0074EAB5 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		1A6B700C24CCDA0A0074EAB5 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		1A6B701224CE90F70074EAB5 /* MapResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResult.swift; sourceTree = "<group>"; };
+		1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResultViewController.swift; sourceTree = "<group>"; };
 		2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421161654656A7BEA218088B /* Pods_transit_safety_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.debug.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				1A6B700C24CCDA0A0074EAB5 /* ViewRouter.swift */,
 				1A56B46B24B5648B00254AC4 /* Assets.xcassets */,
 				70862A1624C3C5CD00E867C6 /* MapScreen.swift */,
+				1A6B701224CE90F70074EAB5 /* MapResult.swift */,
+				1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */,
 				70862A1A24C3C5D900E867C6 /* CreateAccount.swift */,
 				1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */,
 				1A56B47324B5648B00254AC4 /* Info.plist */,
@@ -447,7 +453,9 @@
 				1A56B46624B5648900254AC4 /* AppDelegate.swift in Sources */,
 				70862A1B24C3C5D900E867C6 /* CreateAccount.swift in Sources */,
 				1A56B46824B5648900254AC4 /* SceneDelegate.swift in Sources */,
+				1A6B701524CE9BC40074EAB5 /* MapResultViewController.swift in Sources */,
 				1A56B46A24B5648900254AC4 /* ContentView.swift in Sources */,
+				1A6B701324CE90F70074EAB5 /* MapResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

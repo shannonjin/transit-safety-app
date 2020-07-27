@@ -25,6 +25,10 @@ struct MotherView: View {
             {
                 CreateAccount(viewRouter: viewRouter)
             }
+            else if viewRouter.currentPage == "map result"
+            {
+                MapResult(viewRouter: viewRouter)
+            }
         }
     }
 }
