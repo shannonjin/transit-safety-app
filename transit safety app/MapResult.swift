@@ -14,7 +14,7 @@ import MapKit
 struct MapResult: View {
 
      @ObservedObject var viewRouter: ViewRouter
-    @State private var start = "Grand Central Station"
+    @State private var start = "Times Square"
      @State private var end = "Columbia University"
 
     
@@ -43,6 +43,10 @@ struct MapResult: View {
                 }
             }
             
+            safetyButton().onTapGesture {
+                self.viewRouter.currentPage = "safety tips"
+            }
+            
   
 
         }
@@ -59,12 +63,25 @@ struct clearButton : View{
     var body: some View {
         return Text("Reset Map")
             .foregroundColor(.white)
-            .frame(width: 200, height: 30)
+            .frame(width: 300, height: 30)
             .background(Color.blue)
             .cornerRadius(15)
             .padding(.top, 50)
             .font(.system(size:13))
             .position(x:185, y:520)
+    }
+}
+
+struct safetyButton : View{
+    var body: some View {
+        return Text("Safety Tips")
+            .foregroundColor(.white)
+            .frame(width: 80, height: 30)
+            .background(Color.red)
+            .cornerRadius(15)
+            .padding(.top, 50)
+            .font(.system(size:13))
+            .position(x:45, y:450)
     }
 }
 

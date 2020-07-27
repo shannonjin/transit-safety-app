@@ -14,15 +14,15 @@ import MapKit
 struct MapScreen: View {
     
     @ObservedObject var viewRouter: ViewRouter
-    @State private var start = "Grand Central Station"
+    @State private var start = "Times Sq-42 St"
     var body: some View {
                 
         ZStack{
             
-            Image("MenuBar").resizable()
-                .frame(width: 377.0, height: 200)
-                .offset(y:-244)
-            
+            Image("MenuBar").resizable().onTapGesture {
+                self.viewRouter.currentPage = "login"
+            }.frame(width: 377.0, height: 200)
+            .offset(y:-244)
             
             TextField("From", text:  $start)
                 .offset(x:76,y:-226)
@@ -35,13 +35,16 @@ struct MapScreen: View {
                 self.viewRouter.currentPage = "map result"
             }
             
+            graphButton().onTapGesture {
+                self.viewRouter.currentPage = "monday"
+            }
+
+            
             tabButton().onTapGesture {
                if let url = URL(string: "https://public.tableau.com/profile/kathy.lin1766#!/vizhome/stationdensitytry2/Dashboard1?publish=yes") {
                    UIApplication.shared.open(url)
                }
             }
-
-
         }
     }
 }
@@ -61,7 +64,7 @@ struct MapView: UIViewRepresentable {
     // 2.
     func updateUIView(_ uiView: MKMapView, context: UIViewRepresentableContext<MapView>) {
         // 3.
-        let location = CLLocationCoordinate2D(latitude: 40.7527, longitude: -73.9772)
+        let location = CLLocationCoordinate2D(latitude: 40.7580, longitude: -73.9855)
         //(latitude: 40.759011, longitude: -73.984472) A little to the side of grand centrsl
         
         // 4.
@@ -72,7 +75,7 @@ struct MapView: UIViewRepresentable {
         // 5.
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
-        annotation.title = "Grand Central Station"
+        annotation.title = "Times Square"
         //annotation.subtitle = "London"
         uiView.addAnnotation(annotation)
         
@@ -83,7 +86,7 @@ struct goButton : View{
       var body: some View {
           return Text("Find Safest Path")
               .foregroundColor(.white)
-              .frame(width: 200, height: 30)
+              .frame(width: 300, height: 30)
               .background(Color.blue)
               .cornerRadius(15)
               .padding(.top, 50)
@@ -103,6 +106,19 @@ struct tabButton : View{
             .padding(.top, 50)
             .font(.system(size:13))
             .position(x:185, y:580)
+    }
+}
+
+struct graphButton : View{
+    var body: some View {
+        return Text("See historical station density")
+            .foregroundColor(.blue)
+            .frame(width: 250, height: 30)
+            .background(Color.white)
+            .cornerRadius(15)
+            .padding(.top, 50)
+            .font(.system(size:13))
+            .position(x:240, y:130)
     }
 }
 

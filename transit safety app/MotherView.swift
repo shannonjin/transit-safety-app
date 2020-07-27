@@ -29,6 +29,10 @@ struct MotherView: View {
             {
                 MapResult(viewRouter: viewRouter)
             }
+            else if viewRouter.currentPage == "monday"
+            {
+                MondayView(viewRouter: viewRouter)
+            }
         }
     }
 }
