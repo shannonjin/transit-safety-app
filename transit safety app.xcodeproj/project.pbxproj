@@ -21,6 +21,7 @@
 		1A6B701524CE9BC40074EAB5 /* MapResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */; };
 		1A6B701724CEBA8A0074EAB5 /* SafetyTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701624CEBA8A0074EAB5 /* SafetyTipsView.swift */; };
 		1A6B701924CEBAAF0074EAB5 /* MondayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701824CEBAAF0074EAB5 /* MondayView.swift */; };
+		1A6B701B24CF8C8B0074EAB5 /* CarRecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B701A24CF8C8B0074EAB5 /* CarRecView.swift */; };
 		580A6CE1A7D1431FB6133EC6 /* Pods_transit_safety_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */; };
 		70862A0D24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
 		70862A0E24C3C3D900E867C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70862A0C24C3C3D900E867C6 /* GoogleService-Info.plist */; };
@@ -73,6 +74,7 @@
 		1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResultViewController.swift; sourceTree = "<group>"; };
 		1A6B701624CEBA8A0074EAB5 /* SafetyTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyTipsView.swift; sourceTree = "<group>"; };
 		1A6B701824CEBAAF0074EAB5 /* MondayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayView.swift; sourceTree = "<group>"; };
+		1A6B701A24CF8C8B0074EAB5 /* CarRecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRecView.swift; sourceTree = "<group>"; };
 		2AAF14DEBD254A203245C03B /* Pods_transit_safety_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421161654656A7BEA218088B /* Pods_transit_safety_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transit_safety_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5103C5902E038EE568DEB833 /* Pods-transit safety app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transit safety app.debug.xcconfig"; path = "Target Support Files/Pods-transit safety app/Pods-transit safety app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				1A56B46B24B5648B00254AC4 /* Assets.xcassets */,
 				70862A1624C3C5CD00E867C6 /* MapScreen.swift */,
 				1A6B701224CE90F70074EAB5 /* MapResult.swift */,
+				1A6B701A24CF8C8B0074EAB5 /* CarRecView.swift */,
 				1A6B701424CE9BC40074EAB5 /* MapResultViewController.swift */,
 				70862A1A24C3C5D900E867C6 /* CreateAccount.swift */,
 				1A56B47024B5648B00254AC4 /* LaunchScreen.storyboard */,
@@ -455,6 +458,7 @@
 			files = (
 				70862A1724C3C5CD00E867C6 /* MapScreen.swift in Sources */,
 				1A6B701724CEBA8A0074EAB5 /* SafetyTipsView.swift in Sources */,
+				1A6B701B24CF8C8B0074EAB5 /* CarRecView.swift in Sources */,
 				1A6B700D24CCDA0A0074EAB5 /* ViewRouter.swift in Sources */,
 				1A6B700B24CCD81C0074EAB5 /* MotherView.swift in Sources */,
 				1A56B46624B5648900254AC4 /* AppDelegate.swift in Sources */,

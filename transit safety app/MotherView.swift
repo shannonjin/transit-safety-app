@@ -37,6 +37,9 @@ struct MotherView: View {
             {
                 SafetyTipsView(viewRouter: viewRouter)
             }
+            else if viewRouter.currentPage == "safe car" {
+                CarRecView(viewRouter: viewRouter)
+            }
         }
     }
 }

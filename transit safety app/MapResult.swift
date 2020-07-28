@@ -47,8 +47,9 @@ struct MapResult: View {
                 self.viewRouter.currentPage = "safety tips"
             }
             
-  
-
+            carRec().onTapGesture {
+                self.viewRouter.currentPage = "safe car"
+            }
         }
     }
 }
@@ -64,7 +65,7 @@ struct clearButton : View{
         return Text("Reset Map")
             .foregroundColor(.white)
             .frame(width: 300, height: 30)
-            .background(Color.blue)
+            .background(Color.init(red: 0, green: 0.22, blue: 0.65, opacity: 1))
             .cornerRadius(15)
             .padding(.top, 50)
             .font(.system(size:13))
@@ -84,6 +85,21 @@ struct safetyButton : View{
             .position(x:45, y:450)
     }
 }
+
+struct carRec : View{
+    var body: some View {
+        return Text("Safest Train Car")
+            .foregroundColor(.blue)
+            .frame(width: 200, height: 30)
+            //.background(Color.init(red: 0, green: 0.22, blue: 0.65, opacity: 1))
+            .background(Color.white)
+            .cornerRadius(15)
+            .padding(.top, 50)
+            .font(.system(size:13))
+            .position(x:300, y:150)
+    }
+}
+
 
 
 
