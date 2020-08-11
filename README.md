@@ -22,7 +22,7 @@ When a user types in a start address and an end address in our app, we intend to
 
 **Tableau Dashboard Links**
 For the following component of the app
-![alt text]()
+![alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.46.21%20PM.png)
 
 **Bluetooth Sensor Circuit Diagram.png**
 Proposed design for implementation of bluetooth sensors for train car density tracking (for our app’s proposed train car assignment feature)
