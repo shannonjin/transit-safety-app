@@ -19,3 +19,11 @@ Contains all the python code used to generate the safest path between a start su
 When a user types in a start address and an end address in our app, we intend to use our Dijkstra’s algorithm to generate and display a suggested subway route: a route with the least number of people historically. 
 
 ![alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.44.11%20PM.png)
+
+**Tableau Dashboard Links**
+For the following component of the app
+![alt text]()
+
+**Bluetooth Sensor Circuit Diagram.png**
+Proposed design for implementation of bluetooth sensors for train car density tracking (for our app’s proposed train car assignment feature)
+![alt text]()
