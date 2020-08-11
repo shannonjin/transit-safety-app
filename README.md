@@ -18,4 +18,4 @@ Contains all the python code used to generate the safest path between a start su
 
 When a user types in a start address and an end address in our app, we intend to use our Dijkstra’s algorithm to generate and display a suggested subway route: a route with the least number of people historically. 
 
-![alt text] (https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.44.11%20PM.png)
+![alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.44.11%20PM.png)
