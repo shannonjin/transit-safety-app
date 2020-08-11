@@ -11,4 +11,5 @@ Contains all the Swift iOS app code, can be run by anyone with XCode. We are wor
 
 **R scripts used to generate turnstile associated graphs**
 This is the code that generates the graphs associated with the “See historical station density button” in our app
+[!alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.38.45%20PM.png)
 
