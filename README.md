@@ -13,3 +13,9 @@ Contains all the Swift iOS app code, can be run by anyone with XCode. We are wor
 This is the code that generates the graphs associated with the “See historical station density button” in our app
 ![alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.38.45%20PM.png)
 
+**MTA Turnstile Analysis and Dijkstra’s Algorithim***
+Contains all the python code used to generate the safest path between a start subway station and a destination subway station. The safest path is the path with historically the least people. This is the code that drives our app’s mapping feature. 
+
+When a user types in a start address and an end address in our app, we intend to use our Dijkstra’s algorithm to generate and display a suggested subway route: a route with the least number of people historically. 
+
+
