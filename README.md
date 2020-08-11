@@ -26,4 +26,4 @@ For the following component of the app
 
 **Bluetooth Sensor Circuit Diagram.png**
 Proposed design for implementation of bluetooth sensors for train car density tracking (for our app’s proposed train car assignment feature)
-![alt text]()
+![alt text](https://github.com/shannonjin/transit-safety-app/blob/master/Screen%20Shot%202020-08-10%20at%209.47.45%20PM.png)
